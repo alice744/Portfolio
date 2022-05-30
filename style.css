@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Amatic+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Alegreya', serif;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #444444;
+    color: #298EEA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+ .navbar ul{
+     display: flex;
+ }
+
+ .navbar li{
+     list-style: none;
+ }
+
+ .navbar li a{
+     color: #298EEA;
+     padding: 1rem;
+     display: block;
+ }
+
+ .navbar li:hover{
+     background: rgba(41, 142, 234,0.5);
+ }
+
+/* ------------------------------------- #about */
+
+#about{
+    background: #F5F7FA;
+    height: 100vh;
+}
+
+#about > p{
+    position: relative;
+    top: 20vh;
+    left: 50vw;
+    width: 40vw;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: #444444
+
+}
+
+#about > h2{
+    position: relative;
+    top: 20vh;
+    left: 50vw;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 3;
+}
+
+#about b{
+    color: #28B78D;
+}
+
+#photo{
+    position: absolute;
+    top: 25vh;
+    left: 15vw;
+    height: 60vh;
+}
+
+/* ------------------------------------- #portfolio */
+
+#portfolio{
+    height: 100vh;
+    text-align: center;
+    /* position: relative; */
+}
+
+#portfolio > h2{
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 3;
+    top: 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.port-wapper{
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    width: 40vw;
+    height: 40vh;
+    position: relative;
+}
+
+.text{
+    font-size: 2.5em;
+    font-weight: 500;
+    position: relative;
+}
+
+.port-img{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+/* ------------------------------------- #buttons */
+.open-window{
+    position: absolute;
+    left: 43%;
+    bottom: 5vh;
+    background: #444444;
+    width: 6vw;
+    height: 5vh;
+    color: #a8a39d;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  .window-flash, 
+  .window-piano,
+  .window-space {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 5vw;
+    background: #F5F7FA;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30vw;
+    height: 40vh;
+    padding: 1rem;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 2em;
+  }
+
+  .close-window {
+    position: absolute;
+    background: #444444;
+    width: 5vw;
+    height: 5vh;
+    color: #a8a39d;
+    font-size: 1.2em;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    padding: 6px;
+    right: 3vw;
+    bottom: 5vh;
+  }
+  
+/* ------------------------------------- #contact */
+#contact{
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: #F5F7FA;
+}
+
+#contact > h2{
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 3;
+}
+
+#contact > p {
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #444444
+}
+/* ------------------------------------- #footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #444444;
+    color: #298EEA;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+.icon{
+    position: relative;
+    height: 5vh;
+}
+
